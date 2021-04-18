@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(50deg, rgba(31,31,32,1) 21%, rgba(45,43,43,1) 57%, rgba(106,109,110,1) 100%);
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    color: 	rgb(255, 255, 255);
+}
+
+.header{
+    background-color: #FDFDFD;
+}
+
+.list, 
+.category-top-menu{ 
+    z-index: 1;
+    background-color: rgba(100, 100, 100, 0.8);
+    border-radius: 25px;
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.8));
+}
+
+/* Navbar */
+
+button {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    color: #EAEAEA;
+    border: none;
+    background-color: rgba(109, 65, 37, 0);
+    border-radius: 25px;
+}
+
+/* Logo */
+
+.custom-shape-divider-top-1618756353 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1618756353 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-top-1618756353 .shape-fill {
+    fill: #FDFDFD;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(100, 100, 100, 1);
+    margin: 0;
+    margin-top: 0.5em;
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}

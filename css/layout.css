@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+}
+
+/* header */
+.header {
+  margin-bottom: 5em;
+}
+.logo{
+  padding: 1% 0% 5% 0%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* Navbar */
+.category-top-menu{
+  margin: 0px 10px 0px 10px;
+  padding: 0.8em 0em ;
+  display: grid;
+  grid-auto-flow: column; 
+  grid-gap: 0.3em;
+} 
+
+/* menu + items */
+.menu {
+  margin-top: em;
+}
+h3 {
+  text-align: center;
+}
+
+.list{
+  margin: auto;
+  width:95%;
+  display:flex;
+  padding: 0% 2% 0% 2%;
+}
+
+.name{
+  display:inline-block;
+  width:80%;
+}
+
+.price{
+  display:inline-block;
+  width:20%;
+}
+
+/* List items */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.2em;
+}
+
+.price ul { 
+  float: right;
+}
+

@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+      background-color: lightblue;
+    }
+
+    .category-top-menu{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    /* logo */
+    img {
+        width: 40%;
+    }
+
+    /* Hide scrollbar on mobile */
+
+    /* Chrome, Safari and Opera */
+    .category-top-menu::-webkit-scrollbar {
+        display: none;
+    }
+
+    .example {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    
+    .list{
+        width: 90%;
+    }
+}
