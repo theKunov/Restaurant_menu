@@ -31,3 +31,28 @@
         width: 90%;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+   
+    .menu {
+        display: block;
+        column-count: 2;
+
+    }
+    .category {
+        break-inside: avoid;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #svinsko {
+        padding-top: 0.07em;
+    }
+
+    
+    /* Menu */
+
+    li{
+        padding: 0em 1em 0em 1em;
+    }
+  }

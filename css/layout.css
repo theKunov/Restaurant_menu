@@ -34,8 +34,9 @@ img {
 
 /* menu + items */
 .menu {
-  margin-top: em;
+  margin-top: 5em;
 }
+
 h3 {
   text-align: center;
 }
@@ -47,19 +48,16 @@ h3 {
   padding: 0% 2% 0% 2%;
 }
 
-.name{
-  display:inline-block;
-  width:80%;
-}
 
-.price{
-  display:inline-block;
-  width:20%;
+#price{
+  display: inline-block;
+  float: right;
 }
 
 /* List items */
 
 ul {
+  width: 100%;
   list-style-type: none;
   padding: 0;
 }
@@ -67,8 +65,3 @@ ul {
 li {
   margin-bottom: 0.2em;
 }
-
-.price ul { 
-  float: right;
-}
-

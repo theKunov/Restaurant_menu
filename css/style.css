@@ -1,8 +1,8 @@
 body {
-    background: linear-gradient(50deg, rgba(31,31,32,1) 21%, rgba(45,43,43,1) 57%, rgba(106,109,110,1) 100%);
+    background: linear-gradient(50deg, rgb(135, 94, 60) 21%, rgb(192, 143, 102) 57%, rgb(160, 113, 75) 100%);
     font-family: 'Comfortaa', cursive;
     font-size: 18px;
-    color: 	rgb(255, 255, 255);
+    color: 	rgb(29, 29, 29);
 }
 
 .header{
@@ -12,9 +12,9 @@ body {
 .list, 
 .category-top-menu{ 
     z-index: 1;
-    background-color: rgba(100, 100, 100, 0.8);
+    background-color: rgba(212, 190, 158, 0.8);
     border-radius: 25px;
-    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.4));
 }
 
 /* Navbar */
@@ -22,7 +22,7 @@ body {
 button {
     font-family: 'Comfortaa', cursive;
     font-size: 18px;
-    color: #EAEAEA;
+    color: rgb(29, 29, 29);
     border: none;
     background-color: rgba(109, 65, 37, 0);
     border-radius: 25px;
@@ -54,12 +54,21 @@ button {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(100, 100, 100, 1);
+    background-color: rgba(212, 190, 158, 1);
     margin: 0;
     margin-top: 0.5em;
+}
+
+li{
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
   
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+.menu {
+    margin-bottom: 1em;
 }
