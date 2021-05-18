@@ -9,12 +9,14 @@ body {
     background-color: #FDFDFD;
 }
 
+/* Category */
+
 .list, 
 .category-top-menu{ 
     z-index: 1;
-    background-color: rgba(212, 190, 158, 0.8);
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 25px;
-    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.9));
 }
 
 /* Navbar */
@@ -54,7 +56,7 @@ button {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(212, 190, 158, 1);
+    background-color: rgb(201, 168, 136);
     margin: 0;
     margin-top: 0.5em;
 }
@@ -64,11 +66,18 @@ li{
     padding-top: 8px;
 }
   
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
 
 .menu {
     margin-bottom: 1em;
+}
+
+a {
+    display: inline-block;
+}
+
+#item {
+    width: 75%;
 }
