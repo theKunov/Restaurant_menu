@@ -1,9 +1,5 @@
 @media only screen and (max-width: 600px) {
 
-    body {
-      background-color: lightblue;
-    }
-
     .category-top-menu{
         overflow-x: scroll;
         overflow-y: hidden;
@@ -15,16 +11,8 @@
         width: 40%;
     }
 
-    /* Hide scrollbar on mobile */
-
-    /* Chrome, Safari and Opera */
     .category-top-menu::-webkit-scrollbar {
         display: none;
-    }
-
-    .example {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
     }
     
     .list{
@@ -48,9 +36,6 @@
     #svinsko {
         padding-top: 0.07em;
     }
-
-    
-    /* Menu */
 
     li{
         padding: 0em 1em 0em 1em;
